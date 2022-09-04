@@ -9,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2A2727;
+}
+
+::selection {
+  color: black;
+  background: rgba(255, 255, 255, 0.726);
 }
 
 h1 {

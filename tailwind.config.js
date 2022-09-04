@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heading: "'Abril Fatface', cursive",
+        dm: "'DM Serif Text', serif",
+      },
+      colors: {
+        'background': '#2A2727',
+
+      }
+    },
   },
   plugins: [],
 }
